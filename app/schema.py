@@ -4,7 +4,7 @@ class ExampleQuery(ObjectType):
     hello = String()
     
     def resolve_hello(self, info):
-        return "Hello Dunia"
+        return "Hello"
 
 class RootQuery(ExampleQuery, ObjectType):
     pass
